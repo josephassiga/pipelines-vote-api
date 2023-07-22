@@ -16,7 +16,7 @@ spec:
     spec:
       serviceAccountName: app
       containers:
-        - image: quay.io/openshift-pipeline/vote-api:latest
+        - image: docker.io/josephassiga/vote-app-api:latest
           imagePullPolicy: Always
           name: vote-app-api
           ports:
